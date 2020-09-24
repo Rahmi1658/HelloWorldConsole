@@ -16,7 +16,8 @@ namespace HelloWorldConsole
             Console.Write("Wat is uw naam? ");
             var ingevuld = Console.ReadLine();
             Console.WriteLine($"Hallo {ingevuld}");
-           
+            Console.ReadLine(); 
+
             if (ingevuld == "Rahmi")
             {
                 Console.WriteLine("Hallo Rahmi");
